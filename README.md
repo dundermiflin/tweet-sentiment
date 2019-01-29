@@ -11,6 +11,7 @@ A textual and sentiment analysis of Donald Trump's tweets from 2009 to 2017
 * scikit-learn
 * keras
 * wordcloud
+* matplotlib
 
 ## Code
 * util.py - Sample a portion of the dataset
@@ -31,3 +32,12 @@ A textual and sentiment analysis of Donald Trump's tweets from 2009 to 2017
 * mat.pk - Features for training(Not included due to large size)
 * testmat.pk - Features for testing(Not included due to large size)
 * best_model.h5 - Trained weights of the neural network
+
+## Results
+
+### A Wordcloud with the relative size depicting the frequency of occurence
+ of word in tweets![Wordcloud](Images/cloud.png)
+ 
+ 
+### Variation in the sentiment of Trump's tweets over the years 2009-2017
+![Sentiment Plot](Images/plot.png)
